@@ -1,0 +1,40 @@
+Supervised learning: Dataset where the ‘right’ dat is provided, for example. All the houses in the house pricing algorithm are sold at the appropriate price. 
+Categories of supervised learning algorithms:
+Regression: Continuous valued output
+Classification: Discrete valued output
+
+The SVM (support vector algorithm) allows computers to deal with an infinite number of features. 
+Examples of regression algorithms: Predict the age of a person on the basis of a given picture.
+Classification: Given a patient with a tumor, predict whether the tumor is malignant or benign.
+
+Unsupervised learning: It allows us to approach problems with little or no idea about what our results should look like. We can derive structure from the data based on the relationships among the variables in the data. There is no feedback based on the prediction results. 
+
+Example: Clustering: Collections of millions of different genes, find a way to group these genes into smaller groups on the basis of similar variables like lifespan, location, roles and so on.
+Non-clustering: Identifying individual voices in a chaotic environment
+
+Linear Regression:
+Gradient Descent Algorithm:
+Special property: Every single point leads to a different minimum. 
+We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum. The red arrows show the minimum points in the graph.
+The way we do this is by taking the derivative (the tangential line to a function) of our cost function. The slope of the tangent is the derivative at that point and it will give us a direction to move toward. We make steps down the cost function in the direction with the steepest descent. The size of each step is determined by the parameter a, which is called the learning rate.
+
+Multivariate linear regression basically means that there are multiple features in the form of variables than enable us to predict the value of the function to a higher degree of accuracy.
+
+Logistic Regression:
+Logistic regression is a classification algorithm that we apply to settings when the output y is a discrete value (0 or 1).
+
+To attempt classification, one method is to use linear regression and map all predictions greater than 0.5 as a 1 and all less than 0.5 as a 0. However, this method doesn't work well because classification is not actually a linear function.
+
+One vs All Problems:
+Now we will approach the classification of data when we have more than two categories, where y = {0,1...n}.
+Since y = {0,1...n}, we divide our problem into n+1 binary classification problems; in each one, we predict the probability that 'y' is a member of one of our classes.
+
+We are basically choosing one class and then putting all the others into a second class. We do this repeatedly, applying binary logistic regression to each case, and then use the hypothesis that returned the highest value as our prediction.
+
+Overfitting, underfitting: Cases where there are too many features with too much weightage/ not enough features. In overfitting, curve fits training set too well, makes it difficult to generalize for new samples, in underfitting, the curve does not fit the training set properly and causes something known as high bias cases.
+
+Neural networks: Grew popular in the 80s, lost popularity in the 90s until their resurgence. They’re basically algorithms that mimic the brain. They involve one input layer, multiple hidden layers and a single output layer. Can be used to represent any logic gate, among other things. 
++backpropagation algorithm theory
+
+
+Doing the Andrew Ng Machine Learning course (week 7)
