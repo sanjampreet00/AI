@@ -1,0 +1,5 @@
+Mist AI project and Acknowledgements
+Aditya Pradhan
+Languages Known- C,C++,Java
+Currently learning python and Machine learning by Andrew NG
+Projects interested are fully automated uavs,particle swarm optimization, using ai to build chat bots,sensor operating path finding for robots
